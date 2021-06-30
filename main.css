@@ -18,7 +18,7 @@ body {
   background: linear-gradient(135deg, #252529 0%, #25242b 50%, #28282c 100%);
 }
 
-.high-techss{
+.high-techss, .gamingss, .smartphoness{
   grid-row-start: 5;
 }
 
@@ -52,51 +52,63 @@ header li a {
   padding: 13px;
 }
 
-.card-container.high-tech, .high-techs {
+.card-container.high-tech, .high-techs, .high-techss {
   border-left: 8px solid #4ec9d4;
 }
-.card-container.high-tech:hover .card-title, .high-techs:hover .card-title {
+.card-container.high-tech .card-title a, .high-techs .card-title a, .high-techss .card-title a {
+  color: #fff;
+  text-decoration: none;
+}
+.card-container.high-tech:hover .card-title a, .high-techs:hover .card-title a, .high-techss:hover .card-title a {
   color: #4ec9d4;
 }
-.card-container.high-tech .card-category a, .high-techs .card-category a {
+.card-container.high-tech .card-category, .high-techs .card-category, .high-techss .card-category {
   color: #4ec9d4;
 }
-.card-container.high-tech .card-category::after, .high-techs .card-category::after {
+.card-container.high-tech .card-category::after, .high-techs .card-category::after, .high-techss .card-category::after {
   background-color: #4ec9d4;
 }
-.card-container.high-tech .card-date, .high-techs .card-date {
+.card-container.high-tech .card-date, .high-techs .card-date, .high-techss .card-date {
   color: #4ec9d4;
 }
 
-.card-container.gaming, .gamings {
+.card-container.gaming, .gamings, .gamingss {
   border-left: 8px solid #8c4ed4;
 }
-.card-container.gaming:hover .card-title, .gamings:hover .card-title {
+.card-container.gaming .card-title a, .gamings .card-title a, .gamingss .card-title a {
+  color: #fff;
+  text-decoration: none;
+}
+.card-container.gaming:hover .card-title a, .gamings:hover .card-title a, .gamingss:hover .card-title a {
   color: #8c4ed4;
 }
-.card-container.gaming .card-category, .gamings .card-category {
+.card-container.gaming .card-category, .gamings .card-category, .gamingss .card-category {
   color: #8c4ed4;
 }
-.card-container.gaming .card-category::after, .gamings .card-category::after {
+.card-container.gaming .card-category::after, .gamings .card-category::after, .gamingss .card-category::after {
   background-color: #8c4ed4;
 }
-.card-container.gaming .card-date, .gamings .card-date {
+.card-container.gaming .card-date, .gamings .card-date, .gamingss .card-date {
   color: #8c4ed4;
 }
 
-.card-container.smartphone, .smartphones {
+.card-container.smartphone, .smartphones, .smartphoness {
   border-left: 8px solid #4ed495;
 }
-.card-container.smartphone:hover .card-title, .smartphones:hover .card-title {
+.card-container.smartphone .card-title a, .smartphones .card-title a, .smartphoness .card-title a {
+  color: #fff;
+  text-decoration: none;
+}
+.card-container.smartphone:hover .card-title a, .smartphones:hover .card-title a, .smartphoness:hover .card-title a {
   color: #4ed495;
 }
-.card-container.smartphone .card-category, .smartphones .card-category {
+.card-container.smartphone .card-category, .smartphones .card-category, .smartphoness .card-category {
   color: #4ed495;
 }
-.card-container.smartphone .card-category::after, .smartphones .card-category::after {
+.card-container.smartphone .card-category::after, .smartphones .card-category::after, .smartphoness .card-category::after {
   background-color: #4ed495;
 }
-.card-container.smartphone .card-date, .smartphones .card-date {
+.card-container.smartphone .card-date, .smartphones .card-date, .smartphoness .card-date {
   color: #4ed495;
 }
 

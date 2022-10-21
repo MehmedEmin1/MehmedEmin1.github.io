@@ -542,27 +542,27 @@ video {
 }
 
 .bg-main-img {
-  background-image: url('../assets/team.png');
+  background-image: url('team.png');
 
 } 
 
 .bh-main-img {
-  background-image: url('../assets/lacivert.jpg');
+  background-image: url('lacivert.jpg');
 
 }
 
 .bhg-main-img {
-  background-image: url('../assets/bebe.jpg');
+  background-image: url('bebe.jpg');
 
 }
 
 .bcg-main-img {
-  background-image: url('../assets/kota.jpg');
+  background-image: url('kota.jpg');
 
 }
 
 .bb-main-img {
-  background-image: url('../assets/kota.jpg');
+  background-image: url('kota.jpg');
 
 }
 
